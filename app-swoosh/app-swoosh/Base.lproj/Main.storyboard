@@ -52,6 +52,9 @@
                                 <state key="normal" title="GET STARTED">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Oev-eN-TdX" kind="show" id="iyb-Kn-Eeb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -160,11 +163,23 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQX-qx-BKt">
+                                <rect key="frame" x="18" y="28" width="44" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="aHz-NQ-Vtb"/>
+                                    <constraint firstAttribute="height" constant="38" id="mIe-MG-Nzb"/>
+                                </constraints>
+                                <state key="normal" image="backButton"/>
+                                <connections>
+                                    <segue destination="Zy8-hR-DvR" kind="unwind" unwindAction="seguayfucWithX:" id="oPT-If-P86"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="dRK-zT-8Op" firstAttribute="trailing" secondItem="Ow2-Ox-VxU" secondAttribute="trailing" constant="20" id="0HM-69-tbW"/>
                             <constraint firstItem="dRK-zT-8Op" firstAttribute="bottom" secondItem="N2g-cC-kV1" secondAttribute="bottom" constant="29" id="4AS-cf-hj1"/>
+                            <constraint firstItem="cQX-qx-BKt" firstAttribute="leading" secondItem="dRK-zT-8Op" secondAttribute="leading" constant="18" id="4M1-nR-Yf2"/>
                             <constraint firstItem="Ow2-Ox-VxU" firstAttribute="leading" secondItem="dRK-zT-8Op" secondAttribute="leading" constant="20" id="D50-BE-upp"/>
                             <constraint firstItem="dRK-zT-8Op" firstAttribute="bottom" secondItem="UDs-Bp-Az6" secondAttribute="bottom" id="DM3-xT-IJd"/>
                             <constraint firstItem="dRK-zT-8Op" firstAttribute="trailing" secondItem="UDs-Bp-Az6" secondAttribute="trailing" id="Lfn-UH-009"/>
@@ -173,6 +188,7 @@
                             <constraint firstItem="UDs-Bp-Az6" firstAttribute="top" secondItem="dRK-zT-8Op" secondAttribute="top" id="PK4-jZ-vsm"/>
                             <constraint firstItem="me4-2b-Bt7" firstAttribute="leading" secondItem="dRK-zT-8Op" secondAttribute="leading" id="W6n-ia-Mfc"/>
                             <constraint firstItem="Ow2-Ox-VxU" firstAttribute="top" secondItem="me4-2b-Bt7" secondAttribute="bottom" constant="54" id="XOc-lL-2Jb"/>
+                            <constraint firstItem="cQX-qx-BKt" firstAttribute="top" secondItem="dRK-zT-8Op" secondAttribute="top" constant="8" id="b7f-pq-VHf"/>
                             <constraint firstItem="UDs-Bp-Az6" firstAttribute="leading" secondItem="dRK-zT-8Op" secondAttribute="leading" id="bap-mC-XIV"/>
                             <constraint firstItem="dRK-zT-8Op" firstAttribute="trailing" secondItem="N2g-cC-kV1" secondAttribute="trailing" constant="20" id="qwB-m1-1hp"/>
                             <constraint firstItem="me4-2b-Bt7" firstAttribute="top" secondItem="dRK-zT-8Op" secondAttribute="top" constant="30" id="r0D-8c-Nui"/>
@@ -181,8 +197,9 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9sE-vl-vwK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Zy8-hR-DvR" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1007" y="51"/>
+            <point key="canvasLocation" x="985" y="134"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="du9-Cw-Ps2">
@@ -244,7 +261,7 @@
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="oar-fO-qFv"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
-                                <state key="normal" title="Next">
+                                <state key="normal" title="Finish">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
@@ -274,10 +291,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MeC-lg-RFe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1939" y="-52"/>
+            <point key="canvasLocation" x="1847" y="134"/>
         </scene>
     </scenes>
     <resources>
+        <image name="backButton" width="29" height="24"/>
         <image name="beginnerBallerBG" width="414" height="736"/>
         <image name="desiredLeagueBG" width="414" height="736"/>
         <image name="swooshLogo" width="119" height="20"/>

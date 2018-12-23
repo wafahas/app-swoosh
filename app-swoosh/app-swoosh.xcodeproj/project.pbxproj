@@ -16,6 +16,7 @@
 		8E16D8FB21CAC0C900A52B4B /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E16D8FA21CAC0C900A52B4B /* LeagueVC.swift */; };
 		8E16D8FD21CAC0ED00A52B4B /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E16D8FC21CAC0ED00A52B4B /* SkillVC.swift */; };
 		8E16D8FF21CAD53B00A52B4B /* women.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E16D8FE21CAD53B00A52B4B /* women.swift */; };
+		8E16D90221CBC02200A52B4B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E16D90121CBC02200A52B4B /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		8E16D8FA21CAC0C900A52B4B /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
 		8E16D8FC21CAC0ED00A52B4B /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
 		8E16D8FE21CAD53B00A52B4B /* women.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = women.swift; sourceTree = "<group>"; };
+		8E16D90121CBC02200A52B4B /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		8E16D8F821CABE7400A52B4B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8E16D90121CBC02200A52B4B /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				8E16D8FB21CAC0C900A52B4B /* LeagueVC.swift in Sources */,
 				8E16D8FF21CAD53B00A52B4B /* women.swift in Sources */,
 				8E16D8E321C990B400A52B4B /* AppDelegate.swift in Sources */,
+				8E16D90221CBC02200A52B4B /* Player.swift in Sources */,
 				8E16D8FD21CAC0ED00A52B4B /* SkillVC.swift in Sources */,
 				8E16D8F621C9A28100A52B4B /* BorderButton.swift in Sources */,
 			);

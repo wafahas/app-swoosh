@@ -15,10 +15,7 @@ class women: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-     @IBAction func seguayfunctest(xyd:UIStoryboardSegue){}
 
-    @IBAction func back(_ sender: Any) {
-    }
     /*
     // MARK: - Navigation
 
